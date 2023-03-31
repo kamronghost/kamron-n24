@@ -22,8 +22,14 @@ body {
   color: #4a4b4c;
 }
 
+/* Outline styles */
+*:focus{
+  outline: 2px dashed #7296ec;
+  outline-offset: 3px;
+}
 
-.button-primary {
+/* Button */
+.button-primary { /* Knopkalarda Display-----> Inline block line height ko'rsatkichi ---->  normal bo'ladi*/
   display: inline-block;
   padding: 13px 20px;
   border-radius: 10px;
@@ -119,6 +125,22 @@ body {
   color: #2959ce;
 }
 
+
+/* GLOABAL SEARCH FORM */
+.global-search-form {
+  margin-right: 25px;
+}
+
+.global-search-form-input{
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  border-radius: 60px;
+  border: 0;
+  font-size: 14px;
+  line-height: normal;
+}
 
 /* Language toogle */
 .lang-toggle {
