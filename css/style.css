@@ -190,7 +190,7 @@ body {
   margin-bottom: 4px;
 }
 
-.sitenav-itemL:not(:last-child) {
+.sitenav-item:not(:last-child) {
   margin-right: 34px;
 }
 .sitenav-link {
