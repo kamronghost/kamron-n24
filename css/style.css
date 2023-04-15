@@ -523,6 +523,12 @@ body {
   border-radius: 15px;
 }
 
+.sidebar-ad-img-tall{
+  width: 393px;
+  height: 553px;
+  object-fit: cover;
+  border-radius: 15px;
+}
 
 /* SITE FOOTER */
 .site-footer {
